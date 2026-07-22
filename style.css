@@ -1,0 +1,387 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+.menüü {
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.logoo {
+    font-size: 30px;
+    line-height: 80px;
+    color: #003666;
+}
+
+nav {
+    line-height: 80px;
+}
+
+nav a:link {
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #003666;
+    ;
+}
+
+nav a:visited {
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;
+}
+
+#ikon {
+    margin-right: 7px;
+    font-size: 15px;
+}
+
+.anasyfaa {
+    background-image: url(img/foto1\,.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.blackk {
+    height: 600px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.İçerikk {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.hakkimizda {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.h3gs {
+    font-size: 55px;
+    color: #003666;
+    text-shadow: 0px 1px 1px rgb(200, 54, 54);
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.sol,
+.sag {
+    flex: 1 1 45%;
+    text-align: left;
+    color: #445c6e;
+}
+
+.sol h4,
+.sag h4 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.sol p,
+.sag ul {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.sag {
+    font-size: 40px;
+    color: #003666;
+    margin-right: 5px;
+}
+
+.sag ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.img-box {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.img-gs {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.misyon-vizyon {
+    margin-top: 60px;
+    text-align: left;
+}
+
+.misyon-vizyon h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #003666;
+}
+
+.misyon-vizyon p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.egitimler {
+  padding: 60px 30px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.bolum-baslik {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #003366;
+}
+
+.kaydirici {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.kaydirici::-webkit-scrollbar {
+  height: 8px;
+}
+
+.kaydirici::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.egitim-karti {
+  min-width: 250px;
+  flex: 0 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  scroll-snap-align: start;
+  transition: transform 0.3s;
+}
+
+.egitim-karti:hover {
+  transform: translateY(-5px);
+}
+
+.egitim-karti img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.egitim-karti h4 {
+  margin: 15px 0 5px;
+  color: #003366;
+  font-size: 18px;
+}
+
+.egitim-karti p {
+  font-size: 14px;
+  color: #555;
+  padding: 0 10px 15px;
+}
+.ekip {
+  background-color: #003366;
+  padding: 60px 30px;
+  text-align: center;
+  color: white;
+}
+
+.bolum-baslik {
+    color: white;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.ekip-kapsayici {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.ekip-uye {
+  max-width: 250px;
+}
+
+.ekip-uye img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid white;
+}
+
+.ekip-uye h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.ekip-uye p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.sosyal a {
+  display: inline-block;
+  margin: 0 5px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.sosyal a:hover {
+  background-color: white;
+  color: #003366;
+}
+.iletisim {
+    background: url("img/htmll.webp");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+    height: auto;
+}
+
+#h3iletisim {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#iletisimopak {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+#solform,
+#sagform {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.form-control {
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    display: block;
+}
+
+textarea {
+    font-family: Arial, sans-serif;
+    width: 95%;
+    margin: 10px auto;
+    resize: none;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #445c6e;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#adres {
+    width: 100%;
+    clear: both;
+    padding: 30px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+#adresbas1ik {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.adresp {
+    color: #ddd;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    margin: 5px 0;
+}
+
+#copyright {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+#up {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 7px 12px;
+    margin-top: 10px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+#up:hover {
+    background-color: #fff;
+    color: #222;
+}
